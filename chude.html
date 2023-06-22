@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./Access/Css/style.css">
+  
+
+    <title>Báo mới - Tin tức cập nhật hàng ngày</title>
+</head>
+<body onscroll="myFunction()">
+    <div id="header">
+        <div class="header-headerbox">
+            <div class="bm-BB headebox--center ">
+                <div class="headebox--form">
+                    <div class="headerbox__boxi">
+                        <a style="background-image: url(https://baomoi-static.bmcdn.me/web-v2/prod/v0.4.18/public/images/default-skin/bm-logo.png);" href="/" class="boxi--a"></a>
+                        <form class="boxi__forminput">
+                            <input type="text" placeholder="Nhập nội dung tìm kiếm" class="boxl__inputbox">
+                            <button class="boxl__buttonbox">
+                                <i class='bx bx-search-alt-2' ></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="headerbox__boxl">
+                        <button class="boxl__login">
+                            <i class='bx bx-user'  ></i>
+                        </button>
+                        <button href="" class="boxl__search">
+                            <i class='bx bx-search-alt-2' ></i>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="header-headernav">
+            <div class="bm-BB headernav__box">
+                <ul class="headernav__ul">
+                    <li style="padding-left: 18px;background-color:#2fa1b3 ;" class="headernav__ul-li borderright__li nav__nong">
+                        <a href="./index.html" class="headernav__ul-li--a ">NÓNG</a>
+                    </li>
+                    <li style="background-color:#2fa1b3" class="headernav__ul-li borderright__li nav__moi">
+                        <a href="./index.html" class="headernav__ul-li--a " >MỚI</a>
+                    </li>
+                    <li style="background-color:#2fa1b3" class="headernav__ul-li borderright__li nav__video">
+                        <a href="./video.html" class="headernav__ul-li--a ">VIDEO</a>
+                    </li>
+                    <li style="background-color: #2B94A5;" class="headernav__ul-li borderright__li nav__chude">
+                        <a href="./chude.html" class="headernav__ul-li--a">CHỦ ĐỀ</a>
+                    </li>
+                    <li class="headernav__ul-li height20px ">
+                        <a href="" class="headernav__ul-li--a borderck tag1"># Năng lượng tích cực</a>
+                    </li>
+                    <li class="headernav__ul-li height20px">
+                        <a href="" class="headernav__ul-li--a borderck tag2"># Khám phá Việt Nam</a>
+                    </li>
+                    <li class="headernav__ul-li height20px">
+                        <a href="" class="headernav__ul-li--a borderck tag3"># Khám phá thế giới</a>
+                    </li>
+                </ul>
+                <button class="headernav__button">
+                    <i class='bx nutdanhmuc bx-menu'></i>
+                    <i class='bx nutdanhmuc bx-x'></i>
+                </button>
+                
+                </div> 
+            </div>
+            <div class="headernav__cate">
+                <div style="position: relative;overflow: hidden;width: 100%;height: 100%;">
+                    <div style="position: absolute;inset: 0px; overflow: scroll;">
+                        <div class="menu-setting">               
+                            <div class="setting__bar bm-BB">
+                                <div class="bar__box">
+                                    <a class="bar__box-a"  href="/tin-dia-phuong/ha-noi.epi">
+                                        <i class='bx bx-map'></i>
+                                        <span >Tin 
+                                            Hà Nội
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cate__items">
+                            <ul class="cate__items-ul">
+                                <div class="bm-BB cate__items-ul--div">
+                                    <li class="bm-ji cate__item-ul--li"><a href="" class="cate__items-link">Bóng đá</a></li>
+                                    <li class="bm-ji cate__item-ul--li"><a href="" class="cate__items-link">Tiện tích</a></li>
+                                    <li class="bm-ji cate__item-ul--li"><a href="" class="cate__items-link">Audio</a></li>
+                                    <li class="bm-ji cate__item-ul--li"><a href="" class="cate__items-link">Thế giới</a></li>
+                                    <li class="bm-ji cate__item-ul--li">
+                                        <a href="" class="cate__items-link">Xã hội</a>
+                                        <ul class="cate__item-ul--child">
+                                            <li class="cate__item-li--child"><a href="">Thời sự</a></li>
+                                            <li class="cate__item-li--child"><a href="">Giao thông</a></li>
+                                            <li class="cate__item-li--child"><a href="">Môi trường - khí hậu </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="bm-ji cate__item-ul--li">
+                                        <a href="" class="cate__items-link">Văn hóa</a>
+                                        <ul class="cate__item-ul--child">
+                                            <li class="cate__item-li--child"><a href="">Nghệ thuật</a></li>
+                                            <li class="cate__item-li--child"><a href="">Ẩm thực</a></li>
+                                            <li class="cate__item-li--child"><a href="">Du lịch</a></li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                        <div class="cate__footer"></div>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="content">
+        <div class="bm-BB content__box">
+            <div class="content__box--tille">
+                <a class="tille__link" href="./chude.html"><span>Chủ đề</span></a>
+                
+            </div>
+            <div class="conten_speacial_box">
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Năng lượng tích cực</a>
+                    </h4>
+                    <a href="https://vietnamnet.vn/trieu-phu-doc-ca-gia-tai-quyet-giu-rung-go-quy-tien-ty-2154715.html" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/img__chude/chatgo.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Triệu phú dốc cả gia tài, quyết giữ rừng gỗ quý tiền tỷ</h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/vietnamnet.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 3 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Kiên trì hơn 20 năm, người đàn ông từng bị 
+                                    coi là gàn dở khi đem cả gia tài đổ vào trồng cây pơ mu trên đồi  
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Khám phá Việt Nam</a>
+                    </h4>
+                    <a href="https://www.sgtiepthi.vn/ve-bac-ninh-chiem-nguong-kien-truc-co-doc-dao-o-chua-but-thap/" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/img__chude/butthap.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Về Bắc Ninh, chiêm ngưỡng kiến trúc cổ độc đáo ở chùa Bút Tháp </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/img__chude/logotiepthi.png" alt="Bnews" class="imgstyle-img">
+                                  
+                                        
+                                    </figure>
+                                    <span> 2 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Chùa Bút Tháp được biết đến là một trong những danh lam cổ 
+                                    tự đẹp ở đồng bằng Bắc Bộ. Ngôi chùa tọa lạc 
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Khám phá thế giới</a>
+                    </h4>
+                    <a href="https://vtc.vn/hlv-troussier-thu-nghiem-nhan-to-moi-o-hang-cong-u23-viet-nam-ar799532.html" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/cauthu.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>HLV Troussier thử nhiệm nhân tố mới ở hàng công U23 Việt Nam 
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/vtcnew.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 2 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Quá trình luyện tập trong những ngày gần đây giúp HLV Troussief tìm ra nhân tố mới 
+                                    cho hàng công U23 Việt Nam.
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                             liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">#Vũ Linh</a>
+                    </h4>
+                    <a href="https://m.baomoi.com/c/46089723.epi" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/dapthuydien.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Tín hiệu khả quan: Nhiều hồ thủy điện đã vượt qua mực nước chết
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/vietnam.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 2 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Theo dự báo tình hình thủy văn, lưu lượng nước về hồ 24h tới sẽ tiếp tục tăng nhẹ;
+                                     mực nước các hồ khu vực Bắc Bộ, Bắc Trung Bộ , Tây Nguyên chậm, ở mức thấp. 
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Troussier</a>
+                    </h4>
+                    <a href="https://m.baomoi.com/c/46089745.epi" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/dolatrum.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Ông Trump nói việc truy tố là lạm dụng quyền lực và can thiệp bầu cử
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/vietnamnet.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 2 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Cựu Tổng thống Mỹ Donald Trump cho rằng bản cáo trạng đối với ông trong vụ cất
+                                     giấu tài liệu mật là lạm quyền và can thiệp bầu cử.
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Cư Kuin</a>
+                    </h4>
+                    <a href="https://m.baomoi.com/c/46090149.epi" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/cotmoctusua.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Chuyện những người bảo vệ cột mốc biên giới
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/binhphuconl.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 35 phút</span>
+                                </div>
+                                <p class="text__desc">
+                                    Có đứng cạnh, tận mắt nhìn thấy, tận tay sờ lên cột mốc 
+                                    - nơi có in hai chữ Việt Nam mới thấy hết được sự thiêng 
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Giá Vàng</a>
+                    </h4>
+                    <a href="https://m.baomoi.com/c/46090747.epi" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/maybay.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>United Airlines thông qua thỏa thuận trị giá 8 tỷ USD tăng lương cho nhân viên
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/vtcnew.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 1 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Hãng hàng không Mỹ United Airlines vừa thông qua thỏa thuận lao 
+                                    động lớn nhất lịch sử, trị giá 8 tỷ USD để tăng lương và 
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">#ri6</a>
+                    </h4>
+                    <a href="https://xaydungchinhsach.chinhphu.vn/vu-no-sung-o-dak-lak-cac-doi-tuong-khai-gi-tai-co-quan-cong-an-11923061323130274.htm" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/daklakkhungbo.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Hiện trường vụ nổ súng ở Đắk Lắk và lời khai ban đầu của các đối tượng tại cơ quan Công an
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/tintuc.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 2 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Để thực hiện hành vi phạm tội nghiêm trọng này, nhóm đối tượng đã bàn, phân công và đưa vũ khí cho từng đối 
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Lãi suất huy động</a>
+                    </h4>
+                    <a href="https://m.baomoi.com/c/46093054.epi" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/nongdan.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Người dân vùng sâu, vùng xa ở Gia Lai hiến đất mở đường
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/tintuc.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 1 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Để xây dựng làng, xã đạt chuẩn nông thôn mới, nhiều người dân vùng sâu, 
+                                    vùng xa, vùng dân tộc thiểu số trên địa 
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Giá xăng dầu</a>
+                    </h4>
+                    <a href="https://plo.vn/den-ninh-binh-ngam-hang-mua-mua-sen-no-post737911.html" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/ninhbinh.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Đến Ninh Bình ngắm Hang Múa mùa sen nở
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/phapluatlogo.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 36 phút</span>
+                                </div>
+                                <p class="text__desc">
+                                    Những ngày này, vườn hoa sen tại Hang Múa, Ninh Bình nở rộ,
+                                    thu hút nhiều khách du lịch đến tham quan.
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            Liên quan 
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Đường thuận an hòa</a>
+                    </h4>
+                    <a href="https://m.baomoi.com/c/46092580.epi" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/csgt.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Xe con bị đâm vỡ đuôi trên đường 494 khiến một CSGT tử vong
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/giaothonglogo.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 2 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Hình ảnh từ camera hành trình một ô tô khác ghi lại toàn bộ vụ 
+                                    TNGT trên đường 494 làm một CSGT ở Hà Nam tử vong.
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Cao tốc nha trang</a>
+                    </h4>
+                    <a href="https://m.baomoi.com/c/46093686.epi" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/vaytienon.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Cô gái vay tiền qua mạng, phải thế chấp ảnh khỏa thân
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/nguoilaodong.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 19 phút</span>
+                                </div>
+                                <p class="text__desc">
+                                    Một cô gái tại Đà Nẵng buộc phải chụp, 
+                                    quay clip hình ảnh mình khỏa thân để thế chấp cho khoản vay qua mạng.
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                           liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">#nghị định 33/2023/Nđ-cp</a>
+                    </h4>
+                    <a href="https://m.baomoi.com/c/46093680.epi" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/bithu.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Nguyên Bí thư tỉnh Đắk Lắk Y Luyện: Đồng bào không làm theo lời xúi giục, kích động
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/vietnamnet.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 2 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    'Đây là tội ác lớn, đáng lên án. Chúng chỉ biết giết người, 
+                                    chứ nào biết chuyện chia rẽ khối đại đoàn kết các dân tộc. Luận 
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">#de gea</a>
+                    </h4>
+                    <a href="https://baotintuc.vn/xa-hoi/dak-lak-dung-cam-hy-sinh-vi-su-binh-yen-cua-buon-lang-20230614170330312.htm" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/chiénihysinh.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Đắk Lắk: Các chiến sỹ Công an dũng cảm hy sinh vì bình yên buôn làng
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/vietnam.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 10 phút</span>
+                                </div>
+                                <p class="text__desc">
+                                    Sự hy sinh nào cũng vô cùng cao quý dù thời bình hay thời chiến. Các anh đã dũng cảm hy sinh vì sự bình yên của 
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                             liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">lịch ngừng cung cấp điện</a>
+                    </h4>
+                    <a href="https://m.baomoi.com/c/46093966.epi" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/catdien.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Đồng bằng Bắc Bộ sắp đón đợt nắng nóng diện rộng
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/vtcnew.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 7 phút</span>
+                                </div>
+                                <p class="text__desc">
+                                    Đồng bằng Bắc Bộ trong các ngày từ 18-21/6 có thể xảy ra nắng nóng diện rộng, 
+                                    tại thủ đô Hà Nội, nhiệt độ trong các ngày 
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Đội tuyển argentina</a>
+                    </h4>
+                    <a href="https://m.baomoi.com/c/46093150.epi" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/nhathung.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Sự thật về căn nhà không tầng trệt, có 'đường xuyên qua' ở Cần Thơ
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/vietnamnet.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 2 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Theo chính quyền địa phương,
+                                     lối đi ngay giữa căn nhà là lối đi nội bộ, không phải công cộng.
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+
+                    <h4 class="bm_JK">
+                        <a href="">Brics</a>
+                    </h4>
+
+                    <a href="https://lifestyle.zingnews.vn/bai-bien-o-chau-au-duoc-lam-tu-270000-tan-cat-tu-sahara-post1439601.html" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/bienchauau.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Bãi biển ở châu Âu được làm từ 270.000 tấn cát từ Sahara
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/ziglogo.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span>  giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Playa de Las Teresitas ở Tenerife,
+                                    Tây Ban Nha, là một trong những bãi biển 
+                                    nổi tiếng ở quần đảo Canary. Tuy nhiên, 
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+                <span class="content__box-span">
+                    <h4 class="bm_JK">
+                        <a href="">Dương kinh</a>
+                    </h4>
+                    <a href="https://vtc.vn/kham-pha-tu-vien-1-000-nam-tuoi-o-phap-ar798454.html" class="conten__box-items">
+                        <figure class="figure__img">
+                            <img src="./Access/img/nhatho.jpg" alt="" class="items__img">
+    
+                        </figure>
+                        <div class="items__coment">
+                            <div class="items__desc">
+                                <h4>Khám phá tu viện 1.000 năm tuổi ở Pháp
+                                </h4>
+                            </div>
+                                <div class="itmems__imgstyle">
+                                    <figure  class="figure__logo">
+                                        <img src="./Access/img/ziglogo.png" alt="" class="imgstyle-img">
+                                    </figure>
+                                    <span> 5 giờ</span>
+                                </div>
+                                <p class="text__desc">
+                                    Tu viện Mont-Saint-Michel nằm trên hòn đảo cách đất liền gần 1 km, 
+                                    là một trong những di tích nổi tiếng ở Pháp, thu hút 
+                                    
+                                </p>
+                                
+                        </div>
+                        <a href="" class="items__footer">
+                            liên quan
+                        </a>
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="  content__footer">
+            <div class=" bm-BB button__more-box">
+                <button class="button__more" >Xem thêm </button>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class=" bm-BB footer__box">
+            <a href="https://apps.apple.com/VN/app/id651979466?mt=8" class="footer__box-dowloadapp">
+                <div class="dowload__logo">
+                    <img src="/Access/img/logobaomoi.png" alt="">
+                </div>
+                <div class="dowload__desc">
+                    <span class="dowload__desc-tille">Tải ứng dụng báo mới</span> <br>
+                    <span class="dowload__desc-com">để không bỏ sót tin tức</span>
+                </div>
+                <div class="dowload__iconcould">
+                    <i class='bx bx-cloud-download' ></i>
+                </div>
+            </a>
+            
+        </div>
+        <div class="  footer__box-information">
+            <div class="barshort"></div>
+            <div class=" bm-BB infomation__box">
+                <p>Giấy phép thiết lập trang thông tin điện tử
+                    <br>
+                    tổng hợp số 1818/GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 05/05/2017
+                    <br>
+                    Đơn vị thiết lập: Công ty cổ phần công nghệ EPI
+                    <br>
+                    Chịu trách nhiệm: Võ Quang
+                    <br>
+                    Địa chỉ: Tầng 5, Tòa nhà Báo Sinh Viên VN, D29 Phạm Văn Bạch, Yên Hòa, Cầu Giấy, Hà Nội
+                    <br>
+                    Tel: (024) 3-542-3555.
+                    <br>
+                    Email: contact.baomoi@epi.com.vn
+                    <br>
+                    BÁO MỚI tổng hợp và sắp xếp các thông tin tự động bởi chương trình máy tính
+                 </p>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
